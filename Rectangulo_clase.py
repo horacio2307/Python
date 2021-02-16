@@ -22,8 +22,8 @@ class Rectangulo:  #Clase rectangulo
         return perimetro
 
 Figura=Rectangulo(2,3)  #Creamos el objeto *Figura* de la clase *Rectangulo* y le pasamos los paremtros de 2 y 3
-Fig=Rectangulo(4,3)
+Fig=Rectangulo(4,8)
 a=Figura.area()     #a=valor retornado por el metodo area del objeto Figura
-b=Fig.perimetro()   #b=valor retornado por el metodo perimetro del objeto Fug
+b=Fig.perimetro()  #b=valor retornado por el metodo perimetro del objeto Fug
 
 print(a+b)
