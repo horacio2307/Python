@@ -5,7 +5,7 @@ class Rectangulo:  #Clase rectangulo
         self.base=_base     #self.base  toma el valor que le pasamos al prametro _base
         self.altura=_altura
 
-    def area(self):     #Creamos un metodo o funcion de la clase 
+    def area(self):     #Creamos un metodo o funcion de la clase
 
         area=self.base*self.altura         #area = multiplicacion de la base y la altura, valores asignados en el creador
 
@@ -14,7 +14,7 @@ class Rectangulo:  #Clase rectangulo
         return area     #La funcion retorna el valor de area
 
     def perimetro(self):
-
+ 
         perimetro=2*(self.base+self.altura)
 
         print("El perimetro es :\t", perimetro)
@@ -26,4 +26,9 @@ Fig=Rectangulo(4,8)
 a=Figura.area()     #a=valor retornado por el metodo area del objeto Figura
 b=Fig.perimetro()  #b=valor retornado por el metodo perimetro del objeto Fug
 
+Prueba = Rectangulo(1,2)
+c, d = Prueba.area(), Prueba.perimetro()
 print(a+b)
+print(c)
+print(d)
+print(c+d)

@@ -17,3 +17,8 @@ valor_binario = Decimal2binary(valor_prueba)
 
 print(valor_binario)
 
+a = 0
+
+while (a>0):
+
+
